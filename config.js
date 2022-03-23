@@ -1,6 +1,6 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2020 joker Adanalı gg.
 
-WhatsAsena - Yusuf Usta
+Millie bot - joker Adanalı gg
 */
 
 const { Sequelize } = require('sequelize');
@@ -29,9 +29,9 @@ module.exports = {
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     WELCOME: process.env.WELCOME === undefined ? 'pp' : process.env.WELCOME,
-    OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
+    OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME, joker adanali
     ALL: process.env.ALL_CAPTION === undefined ? 'ᴍᴀᴅᴇ ʙʏ ᴘʀɪɴᴄᴇʀᴜᴅʜ' : process.env.ALL_CAPTION,
-    MENTION: process.env.TAG_REPLY === undefined ? '919895339960@s.whatsapp.net' : process.env.TAG_REPLY,
+    MENTION: process.env.TAG_REPLY === undefined ? '905379649077@s.whatsapp.net' : process.env.TAG_REPLY,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     PLKS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
@@ -39,7 +39,7 @@ module.exports = {
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
-    BOTNAME: process.env.BOT_NAME === undefined ? '  ☚⃟፝༄ƦUÐҤƦλ☚⃟፝࿐  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOT_NAME,
+    BOTNAME: process.env.BOT_NAME === milliebot ? '  ☚⃟፝༄ƦUÐҤƦλ☚⃟፝࿐  \n\n   *ωнαтsαρρ вσт™*   \n' : process.env.BOT_NAME,millie bot
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
     SONGD: process.env.SONGD === undefined ? '✮⃝🎸ƦUÐҤƦλ ÐØ₩₦ŁØÐł₦G ¥ØUƦ $Ø₦G✮⃝🎧' : process.env.SONGD,
@@ -83,7 +83,7 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "919895339960-1634134075",
-    SUPPORT2: "919895809960-1617736751",
-    SUPPORT3: "919895809960-1621015274"
+    SUPPORT: "905379649077-1634134075",
+    SUPPORT2: "447458196902-1617736751",
+    SUPPORT3: "447360506984-1621015274"
 };
